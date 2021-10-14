@@ -27,6 +27,10 @@ header .btn {
 
 .container-window-btn {
     width: 7%;
+    height: 25px;
+    position: fixed;
+    top: 0;
+    left: 10px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -46,7 +50,7 @@ header .btn {
 }
 
 .container-zoom-id {
-    width: 93%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +78,7 @@ header .btn {
 main {
     background-color: black;
     width: 100%;
-    height: calc(100vh - 25px);
+    height: calc(100vh - 85px);
     padding: 10px;
 }
 
@@ -84,7 +88,7 @@ main {
 }
 
 main .btn {
-    background: linear-gradient(#3d3d3d, #1f1f1f); 
+    background: linear-gradient(#3d3d3d, #1f1f1f);
     padding: 5px 10px;
     color: white;
     border-radius: 5px;
@@ -120,8 +124,10 @@ main .btn {
 
 .container-video {
     width: 90%;
+    height: 90%;
     display: flex;
     flex-wrap: wrap;
+    margin: 15px 0;
 }
 
 .box {
@@ -143,6 +149,100 @@ main .btn {
 }
 .box.border {
     border: 4px solid yellow
+}
+
+/* ***** footer ***** */
+footer {
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(#3d3d3d, #1f1f1f);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-left {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.container-footer-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-right: 30px;
+}
+
+.footer-left .container-footer-btn {
+    margin-right: 15px;
+}
+
+.container-footer-btn>span {
+    font-size: 12px;
+}
+
+.container-footer-btn i {
+    font-size: 26px;
+    margin-bottom: 3px;
+}
+
+.footer-left>i {
+    margin-right: 30px;
+}
+
+.footer-center {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+
+.footer-center>i {
+    margin-right: 30px;
+    align-self: center;
+}
+
+.partecipanti>i>span {
+    position: relative;
+    top: -12px;
+}
+
+.share {
+    margin-right: 5px;
+}
+
+.share i {
+    color: rgb(35, 175, 0);
+}
+
+.container-footer-btn>i>i {
+    font-size: 10px;
+}
+
+.container-footer-btn>i>span {
+    font-size: 10px;
+}
+
+.polling i {
+    transform: rotate(270deg);
+}
+
+.container-footer-btn .puntini {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer-right {
+    width: 8%;
+    height: 100%;
+    color: red;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
