@@ -85,6 +85,7 @@ main {
 .main-option {
     display: flex;
     justify-content: flex-end;
+    cursor: pointer;
 }
 
 main .btn {
@@ -133,7 +134,10 @@ main .btn {
 .box {
     width: calc(100% / 5 - 5px);
     height: calc(100% / 5 - 5px);
-    background-color: white;
+    background-image: url('https://pbs.twimg.com/media/Eu7WRWgXAAoc1_s.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-right: 5px;
     margin-bottom: 5px;
     position: relative;
@@ -147,6 +151,7 @@ main .btn {
     padding: 3px;
     font-size: 12px;
 }
+
 .box.border {
     border: 4px solid yellow
 }
@@ -174,6 +179,7 @@ footer {
     align-items: center;
     align-content: center;
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .footer-left .container-footer-btn {
@@ -186,11 +192,12 @@ footer {
 
 .container-footer-btn i {
     font-size: 26px;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 .footer-left>i {
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .footer-center {
@@ -202,6 +209,7 @@ footer {
 .footer-center>i {
     margin-right: 30px;
     align-self: center;
+    cursor: pointer;
 }
 
 .partecipanti>i>span {
@@ -243,6 +251,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 
